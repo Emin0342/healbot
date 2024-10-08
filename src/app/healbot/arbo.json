@@ -1,0 +1,84 @@
+{
+    "tête": {
+      "question": "Quelle partie de la tête avez-vous mal ?",
+      "options": {
+        "yeux": {
+          "question": "Vos yeux sont-ils rouges ou irrités ?",
+          "options": {
+            "rouges": {
+              "question": "Avez-vous une sensibilité à la lumière ?",
+              "options": {
+                "oui": "Il pourrait s'agir d'une conjonctivite. Consultez un médecin.",
+                "non": "Cela pourrait être une irritation temporaire. Reposez vos yeux."
+              }
+            },
+            "irrités": {
+              "question": "Avez-vous des maux de tête fréquents ?",
+              "options": {
+                "oui": "Cela pourrait être une migraine. Consultez un médecin.",
+                "non": "Vos yeux semblent en bonne santé. Si les symptômes persistent, consultez un médecin."
+              }
+            }
+          }
+        },
+        "bouche": {
+          "question": "Avez-vous des douleurs aux dents ou à la mâchoire ?",
+          "options": {
+            "oui": "Cela pourrait être un problème dentaire. Consultez un dentiste.",
+            "non": "Vos douleurs semblent mineures. Si elles persistent, consultez un médecin."
+          }
+        },
+        "tete": {
+          "question": "Avez-vous des maux de tête ?",
+          "options": {
+            "oui": {
+              "question": "Avez-vous des nausées ou des vomissements ?",
+              "options": {
+                "oui": {
+                  "question": "Avez-vous des vertiges ?",
+                  "options": {
+                    "oui": "Cela pourrait être une migraine. Consultez un médecin.",
+                    "non": "Cela pourrait être une céphalée de tension. Reposez-vous."
+                  }
+                },
+                "non": "Cela pourrait être dû au stress ou à la fatigue. Reposez-vous."
+              }
+            },
+            "non": "Vos douleurs pourraient être dues à la fatigue. Reposez-vous."
+          }
+        }
+      }
+    },
+    "corps": {
+      "question": "Quelle partie du corps avez-vous mal ?",
+      "options": {
+        "poitrine": {
+          "question": "Avez-vous des douleurs en respirant ?",
+          "options": {
+            "oui": "Cela pourrait être un problème pulmonaire. Consultez un médecin immédiatement.",
+            "non": "Vos douleurs pourraient être musculaires. Reposez-vous."
+          }
+        },
+        "ventre": {
+          "question": "Avez-vous des nausées ou des vomissements ?",
+          "options": {
+            "oui": "Cela pourrait être une indigestion. Consultez un médecin si les symptômes persistent.",
+            "non": "Reposez-vous et surveillez vos symptômes."
+          }
+        }
+      }
+    },
+    "bas du corps": {
+      "question": "Quelle partie du bas du corps avez-vous mal ?",
+      "options": {
+        "jambes": {
+          "question": "Avez-vous des gonflements ?",
+          "options": {
+            "oui": "Cela pourrait être un problème de circulation. Consultez un médecin.",
+            "non": "Cela pourrait être une fatigue musculaire. Reposez-vous."
+          }
+        }
+      }
+    }
+  }
+  
