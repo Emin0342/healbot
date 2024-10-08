@@ -27,11 +27,11 @@ export default function PageAccueil() {
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="outline" className="text-xs sm:text-sm">S'inscrire / Se connecter</Button>
+              <Button variant="outline" className="text-xs sm:text-sm">S&apos;inscrire / Se connecter</Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>
-                <Link href="/register">S'inscrire</Link>
+                <Link href="/register">S&apos;inscrire</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <Link href="/auth/login">Se connecter</Link>
@@ -78,10 +78,10 @@ export default function PageAccueil() {
               <Card>
                 <CardHeader>
                   <Brain className="h-8 w-8 text-primary mb-2" />
-                  <CardTitle className="text-lg sm:text-xl">Conseils basés sur l'IA</CardTitle>
+                  <CardTitle className="text-lg sm:text-xl">Conseils basés sur l&apos;IA</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm sm:text-base">Bénéficiez d'une technologie d'IA avancée qui fournit des conseils de santé précis et personnalisés.</p>
+                  <p className="text-sm sm:text-base">Bénéficiez d&apos;une technologie d&apos;IA avancée qui fournit des conseils de santé précis et personnalisés.</p>
                 </CardContent>
               </Card>
               <Card>
@@ -106,8 +106,8 @@ export default function PageAccueil() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm sm:text-base">
-                  "J'avais un terrible mal de dos et je ne savais pas quoi faire. HealBot m'a immédiatement conseillé
-                  des étirements et m'a indiqué quand consulter un médecin. C'est comme avoir un professionnel de santé dans ma poche !"
+                  J&apos;avais un terrible mal de dos et je ne savais pas quoi faire. HealBot m&apos;a immédiatement conseillé
+                  des étirements et m&apos;a indiqué quand consulter un médecin. C&apos;est comme avoir un professionnel de santé dans ma poche !
                 </p>
               </CardContent>
             </Card>
@@ -118,7 +118,7 @@ export default function PageAccueil() {
         <p className="text-xs text-gray-500 dark:text-gray-400">© 2023 HealBot. Tous droits réservés.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Conditions d'utilisation
+            Conditions d&apos;utilisation
           </Link>
           <Link className="text-xs hover:underline underline-offset-4" href="#">
             Confidentialité

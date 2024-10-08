@@ -1,5 +1,5 @@
 'use client';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -149,7 +149,7 @@ export default function Component() {
                 </SelectContent>
               </Select>
               <Button type="submit" className="w-full" onClick={() => setStep(4)}>
-                Terminer l'inscription
+                Terminer l&apos;inscription
               </Button>
             </>
           )}
@@ -172,7 +172,7 @@ export default function Component() {
                 {/* Ajoutez d'autres vaccins ici */}
               </div>
               <Button type="submit" className="w-full">
-                Terminer l'inscription
+                Terminer l&apos;inscription
               </Button>
             </>
           )}
