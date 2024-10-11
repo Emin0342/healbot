@@ -346,6 +346,15 @@ const ProfilePage = () => {
               >
                 Importé son profil MonEspaceSanté
               </Button>
+              {/* bouton retour vers le chatbot */}
+              <Button
+                type="submit"
+                onMouseEnter={() => speak("Retour au chatbot")}
+                onMouseLeave={stopSpeaking}
+                onClick={() => location.href = "/healbot"}
+                className="w-full"
+              > Retour au chatbot
+              </Button>
             </form>
           </CardContent>
         </Card>
