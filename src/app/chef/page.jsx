@@ -33,8 +33,8 @@ export default function TextToSpeechComponent() {
 
   return (
     <div>
-      <h1>Survolez les éléments pour qu'ils soient lus à haute voix</h1>
-      <p>Ceci est un paragraphe que l'IA va lire lorsque vous survolerez avec le curseur.</p>
+      <h1>Survolez les éléments pour qu&apos;ils soient lus à haute voix</h1>
+      <p>Ceci est un paragraphe que l&apos;IA va lire lorsque vous survolerez avec le curseur.</p>
       <p>Un autre texte que vous pouvez survoler.</p>
       <button>Survolez-moi aussi !</button>
     </div>

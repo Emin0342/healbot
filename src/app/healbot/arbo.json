@@ -104,7 +104,7 @@
     }
   },
   "cancer_gorge_oui": {
-    "question": "Avez-vous des difficultés à respirer ? Cela peut inclure une sensation de souffle court, une respiration sifflante ou laborieuse.",
+    "question": "Je vois que vous avez un cancer de gorge, avez-vous des difficultés à respirer ? Cela peut inclure une sensation de souffle court, une respiration sifflante ou laborieuse.",
     "options": {
       "oui": {
         "question": "Avez-vous également des douleurs à la poitrine, une pression intense ou une sensation d'oppression qui s'aggrave en respirant profondément ?",

@@ -32,7 +32,6 @@ export default function HealthChatbot() {
     cancerStatus: "non",
     cancerType: "",
   });
-  const [isHearingImpaired, setIsHearingImpaired] = useState(false);
 
   const { user, loading } = useCurrentUser(); // Utilisation du hook pour obtenir l'utilisateur connecté
 
@@ -312,7 +311,10 @@ export default function HealthChatbot() {
                 </div>
               )}
             </CardContent>
-            <CardFooter></CardFooter>
+            <CardFooter>
+            <Button onClick={handleNewConversation} className="mt-4 flex justify-center"> Nouvelle conversation </Button>
+
+            </CardFooter>
           </Card>
         </div>
       </div>

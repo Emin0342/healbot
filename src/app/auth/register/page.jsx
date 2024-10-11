@@ -199,7 +199,7 @@ export default function RegisterComponent() {
                     {/* Ajoutez d'autres vaccins ici */}
                   </div>
                   <Button type="submit" className="w-full">
-                    Terminer l'inscription
+                    Terminer l&apos;inscription
                   </Button>
                 </>
               )}

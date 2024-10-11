@@ -4,11 +4,13 @@ import { Button } from "@/components/ui/button";
 import { signOut, getAuth } from "firebase/auth";
 import { useRouter } from "next/navigation";
 import { HeartPulse } from "lucide-react";
+import useCurrentUser from "@/hooks/useCurrentUser";
 
 const auth = getAuth();
 
 export function TopNavBarBot() {
     const router = useRouter();
+    const { user, loading } = useCurrentUser(); // Récupérer l'utilisateur
 
     const handleSignOut = () => {
         signOut(auth)
@@ -29,18 +31,30 @@ export function TopNavBarBot() {
                         <span className="ml-2 text-xl font-bold text-primary">HealBot</span>
                     </Link>
                     <div className="flex space-x-4">
-                        <Link href="/profile" passHref>
-                            <Button variant="outline" className="text-sm font-medium">
-                                Profile
-                            </Button>
-                        </Link>
-                        <Button
-                            variant="outline"
-                            className="text-sm font-medium"
-                            onClick={handleSignOut}
-                        >
-                            Déconnexion
-                        </Button>
+                        {!loading && user ? (
+                            // Afficher les boutons Profile et Déconnexion si l'utilisateur est connecté
+                            <>
+                                <Link href="/profile" passHref>
+                                    <Button variant="outline" className="text-sm font-medium">
+                                        Profile
+                                    </Button>
+                                </Link>
+                                <Button
+                                    variant="outline"
+                                    className="text-sm font-medium"
+                                    onClick={handleSignOut}
+                                >
+                                    Déconnexion
+                                </Button>
+                            </>
+                        ) : (
+                            // Afficher le bouton Connexion si l'utilisateur n'est pas connecté
+                            <Link href="/auth/login" passHref>
+                                <Button variant="outline" className="text-sm font-medium">
+                                    Connexion
+                                </Button>
+                            </Link>
+                        )}
                     </div>
                 </div>
             </div>

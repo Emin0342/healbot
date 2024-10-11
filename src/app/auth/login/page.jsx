@@ -71,7 +71,7 @@ export default function Component() {
               </form>
               <Link href="/auth/register">
               <Button className="w-full pt-2" variant={"secondary"}>
-                Pas de compte ? S'inscrire
+                Pas de compte ? S&apos;inscrire
               </Button>
             </Link>
             </CardContent>
