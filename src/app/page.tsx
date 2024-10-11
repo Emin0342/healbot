@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link"
 import { MessageCircle, Brain, HeartPulse, ThumbsUp } from "lucide-react"
 
@@ -31,7 +32,7 @@ export default function PageAccueil() {
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>
-                <Link href="/register">S&apos;inscrire</Link>
+                <Link href="/auth/register">S&apos;inscrire</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <Link href="/auth/login">Se connecter</Link>
@@ -56,7 +57,7 @@ export default function PageAccueil() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button className="w-full sm:w-auto">Essayez HealBot maintenant</Button>
+                <Button className="w-full sm:w-auto" onClick={() => window.location.href = '/healbot'}>Essayez HealBot maintenant</Button>
                 <Button variant="outline" className="w-full sm:w-auto">En savoir plus</Button>
               </div>
             </div>

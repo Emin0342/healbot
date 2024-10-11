@@ -12,6 +12,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyCSwC4aRogXPA9_NUkFdCB4tUZ5BtAMpyw",
   authDomain: "healbot-f0da2.firebaseapp.com",
   projectId: "healbot-f0da2",
+  databaseURL: "https://healbot-f0da2-default-rtdb.europe-west1.firebasedatabase.app", // URL mise à jour
   storageBucket: "healbot-f0da2.appspot.com",
   messagingSenderId: "209302563551",
   appId: "1:209302563551:web:54b61ac26e4291a72dd76a"

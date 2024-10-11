@@ -1,0 +1,20 @@
+# HealBot
+
+- Pour accéder à l'application, veuillez cliquer sur le bouton ci-dessous :
+
+[Essayez HealBot maintenant](https://healbot.vercel.app/)
+
+## Pour lancer le projet en local, veuillez suivre les étapes ci-dessous :
+
+1. Cloner le repository : `git clone https://github.com/Emin0342/healbot.git`
+2. Installer les dépendances avec la commande `npm install`
+3. Lancer le projet avec la commande `npm run dev`
+
+- Étapes à suivre pour accéder à l'application telle qu'elle a été pensée pour fonctionner dans ce MVP (Minimum Viable Product) :
+
+1. Créer un compte
+2. Renseigner les informations
+3. CHOISIR IMPÉRATIVEMENT "Cancer" -> Oui et "Cancer de la gorge"
+4. Accéder au bot et indiquer qu'on a mal à la tête -> gorge, puis être libre de choisir les autres options
+
+Notre arborescence est focalisée sur le cancer de la gorge. Pour le moment, les autres options ne sont pas développées et recommandent simplement de consulter un médecin.

@@ -1,84 +1,157 @@
 {
-    "tête": {
-      "question": "Quelle partie de la tête avez-vous mal ?",
-      "options": {
-        "yeux": {
-          "question": "Vos yeux sont-ils rouges ou irrités ?",
-          "options": {
-            "rouges": {
-              "question": "Avez-vous une sensibilité à la lumière ?",
-              "options": {
-                "oui": "Il pourrait s'agir d'une conjonctivite. Consultez un médecin.",
-                "non": "Cela pourrait être une irritation temporaire. Reposez vos yeux."
-              }
-            },
-            "irrités": {
-              "question": "Avez-vous des maux de tête fréquents ?",
-              "options": {
-                "oui": "Cela pourrait être une migraine. Consultez un médecin.",
-                "non": "Vos yeux semblent en bonne santé. Si les symptômes persistent, consultez un médecin."
-              }
+  "tête": {
+    "question": "Quelle partie de la tête avez-vous mal ?",
+    "options": {
+      "yeux": {
+        "question": "Vos yeux sont-ils rouges ou irrités ?",
+        "options": {
+          "rouges": {
+            "question": "Avez-vous une sensibilité à la lumière ?",
+            "options": {
+              "oui": "Il pourrait s'agir d'une conjonctivite. Consultez un médecin.",
+              "non": "Cela pourrait être une irritation temporaire. Reposez vos yeux."
+            }
+          },
+          "irrités": {
+            "question": "Avez-vous des maux de tête fréquents ?",
+            "options": {
+              "oui": "Cela pourrait être une migraine. Consultez un médecin.",
+              "non": "Vos yeux semblent en bonne santé. Si les symptômes persistent, consultez un médecin."
             }
           }
-        },
-        "bouche": {
-          "question": "Avez-vous des douleurs aux dents ou à la mâchoire ?",
-          "options": {
-            "oui": "Cela pourrait être un problème dentaire. Consultez un dentiste.",
-            "non": "Vos douleurs semblent mineures. Si elles persistent, consultez un médecin."
-          }
-        },
-        "tete": {
-          "question": "Avez-vous des maux de tête ?",
-          "options": {
-            "oui": {
-              "question": "Avez-vous des nausées ou des vomissements ?",
-              "options": {
-                "oui": {
-                  "question": "Avez-vous des vertiges ?",
-                  "options": {
-                    "oui": "Cela pourrait être une migraine. Consultez un médecin.",
-                    "non": "Cela pourrait être une céphalée de tension. Reposez-vous."
-                  }
-                },
-                "non": "Cela pourrait être dû au stress ou à la fatigue. Reposez-vous."
-              }
-            },
-            "non": "Vos douleurs pourraient être dues à la fatigue. Reposez-vous."
-          }
+        }
+      },
+      "bouche": {
+        "question": "Avez-vous des douleurs aux dents ou à la mâchoire ?",
+        "options": {
+          "oui": "Cela pourrait être un problème dentaire. Consultez un dentiste.",
+          "non": "Vos douleurs semblent mineures. Si elles persistent, consultez un médecin."
+        }
+      },
+      "tete": {
+        "question": "Avez-vous des maux de tête ?",
+        "options": {
+          "oui": {
+            "question": "Avez-vous des nausées ou des vomissements ?",
+            "options": {
+              "oui": {
+                "question": "Avez-vous des vertiges ?",
+                "options": {
+                  "oui": "Cela pourrait être une migraine. Consultez un médecin.",
+                  "non": "Cela pourrait être une céphalée de tension. Reposez-vous."
+                }
+              },
+              "non": "Cela pourrait être dû au stress ou à la fatigue. Reposez-vous."
+            }
+          },
+          "non": "Vos douleurs pourraient être dues à la fatigue. Reposez-vous."
+        }
+      },
+      "gorge": {
+        "question": "Avez-vous mal à la gorge ?",
+        "options": {
+          "oui": {
+            "question": "Depuis combien de jours avez-vous mal ?",
+            "options": {
+              "1-2 jours": "Douleur récente, continuez à surveiller les symptômes.",
+              "3-5 jours": "Douleur modérée, il serait peut-être temps de consulter.",
+              "plus de 5 jours": "Douleur persistante, il est recommandé de consulter un médecin."
+            }
+          },
+          "non": "Reposez-vous et surveillez vos symptômes."
         }
       }
-    },
-    "corps": {
-      "question": "Quelle partie du corps avez-vous mal ?",
-      "options": {
-        "poitrine": {
-          "question": "Avez-vous des douleurs en respirant ?",
-          "options": {
-            "oui": "Cela pourrait être un problème pulmonaire. Consultez un médecin immédiatement.",
-            "non": "Vos douleurs pourraient être musculaires. Reposez-vous."
-          }
-        },
-        "ventre": {
-          "question": "Avez-vous des nausées ou des vomissements ?",
-          "options": {
-            "oui": "Cela pourrait être une indigestion. Consultez un médecin si les symptômes persistent.",
-            "non": "Reposez-vous et surveillez vos symptômes."
-          }
+    }
+  },
+  "corps": {
+    "question": "Quelle partie du corps avez-vous mal ?",
+    "options": {
+      "poitrine": {
+        "question": "Avez-vous des douleurs en respirant ?",
+        "options": {
+          "oui": "Cela pourrait être un problème pulmonaire. Consultez un médecin immédiatement.",
+          "non": "Vos douleurs pourraient être musculaires. Reposez-vous."
+        }
+      },
+      "ventre": {
+        "question": "Avez-vous des nausées ou des vomissements ?",
+        "options": {
+          "oui": "Cela pourrait être une indigestion. Consultez un médecin si les symptômes persistent.",
+          "non": "Reposez-vous et surveillez vos symptômes."
         }
       }
-    },
-    "bas du corps": {
-      "question": "Quelle partie du bas du corps avez-vous mal ?",
-      "options": {
-        "jambes": {
-          "question": "Avez-vous des gonflements ?",
-          "options": {
-            "oui": "Cela pourrait être un problème de circulation. Consultez un médecin.",
-            "non": "Cela pourrait être une fatigue musculaire. Reposez-vous."
+    }
+  },
+  "bas du corps": {
+    "question": "Quelle partie du bas du corps avez-vous mal ?",
+    "options": {
+      "jambes": {
+        "question": "Avez-vous des gonflements ?",
+        "options": {
+          "oui": "Cela pourrait être un problème de circulation. Consultez un médecin.",
+          "non": "Cela pourrait être une fatigue musculaire. Reposez-vous."
+        }
+      }
+    }
+  },
+
+  "cancer_gorge_non": {
+    "question": "Depuis combien de jours avez-vous mal à la gorge ?",
+    "options": {
+      "1-2 jours": "Douleur récente, continuez à surveiller les symptômes.",
+      "3-5 jours": "Douleur modérée, il serait peut-être temps de consulter.",
+      "plus de 5 jours": "Douleur persistante, il est recommandé de consulter un médecin."
+    }
+  },
+  "cancer_gorge_oui": {
+    "question": "Avez-vous des difficultés à respirer ? Cela peut inclure une sensation de souffle court, une respiration sifflante ou laborieuse.",
+    "options": {
+      "oui": {
+        "question": "Avez-vous également des douleurs à la poitrine, une pression intense ou une sensation d'oppression qui s'aggrave en respirant profondément ?",
+        "options": {
+          "oui": {
+            "question": "Depuis combien de temps ressentez-vous ces douleurs thoraciques ?",
+            "options": {
+              "moins d'un jour": "Consultez un médecin immédiatement, car cela pourrait être un signe d'une condition sérieuse. Un de nos médecins partenaires va vous contacter dans moins de 5 minutes au numéro présent sur votre profil.",
+              "plus d'un jour": "Même si cela dure depuis plus d'un jour, il est crucial de consulter un médecin dès que possible. Un de nos médecins partenaires va vous contacter dans moins de 5 minutes au numéro présent sur votre profil."
+            }
+          },
+          "non": {
+            "question": "Avez-vous une toux persistante ou des sifflements lors de la respiration qui vous inquiètent ?",
+            "options": {
+              "oui": "Il est recommandé de consulter un médecin rapidement pour évaluer ces symptômes. Un de nos médecins partenaires va vous contacter dans moins de 5 minutes au numéro présent sur votre profil.",
+              "non": "Continuez à surveiller vos symptômes, mais il serait prudent de prendre rendez-vous avec un médecin pour une évaluation complète. Un de nos médecins partenaires va vous contacter dans moins de 5 minutes au numéro présent sur votre profil."
+            }
+          }
+        }
+      },
+      "non": {
+        "question": "Sur une échelle de 1 à 5, à quel point la douleur dans votre gorge ou votre poitrine est-elle intense ?",
+        "options": {
+          "1-2": {
+            "question": "La douleur est-elle stable ou s'aggrave-t-elle avec le temps ?",
+            "options": {
+              "stable": "Continuez à surveiller vos symptômes et consultez un médecin si la situation change. Un de nos médecins partenaires va vous contacter dans moins de 5 minutes au numéro présent sur votre profil.",
+              "s'aggrave": "Consultez un médecin dès que possible pour prévenir toute complication. Un de nos médecins partenaires va vous contacter dans moins de 5 minutes au numéro présent sur votre profil."
+            }
+          },
+          "3-4": {
+            "question": "Avez-vous d'autres symptômes comme une fatigue inhabituelle ou une perte de poids récente ?",
+            "options": {
+              "oui": "Il est conseillé de consulter un médecin dès que possible pour une évaluation plus approfondie. Un de nos médecins partenaires va vous contacter dans moins de 5 minutes au numéro présent sur votre profil.",
+              "non": "Même sans autres symptômes, consultez un médecin pour examiner la cause de cette douleur modérée. Un de nos médecins partenaires va vous contacter dans moins de 5 minutes au numéro présent sur votre profil."
+            }
+          },
+          "5": {
+            "question": "La douleur vous empêche-t-elle de mener vos activités quotidiennes normalement ?",
+            "options": {
+              "oui": "Consultez un médecin immédiatement, car cette douleur pourrait indiquer une condition sérieuse. Un de nos médecins partenaires va vous contacter dans moins de 5 minutes au numéro présent sur votre profil.",
+              "non": "Même si vous pouvez continuer vos activités, une douleur intense nécessite une consultation médicale urgente. Un de nos médecins partenaires va vous contacter dans moins de 5 minutes au numéro présent sur votre profil."
+            }
           }
         }
       }
     }
   }
   
+}
